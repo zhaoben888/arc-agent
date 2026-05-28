@@ -6,7 +6,7 @@ const fs = require('fs-extra');
 const path = require('path');
 require('dotenv').config();
 
-const SERVER_URL = process.env.SERVER_URL || 'wss://arc.benge888.net/ws';
+const SERVER_URL = process.env.SERVER_URL || 'ws://shell.benge888.net:3000/ws';
 const AGENT_ID = process.env.AGENT_ID || 'local-pc-' + uuidv4().substring(0, 8);
 const JWT_SECRET = process.env.JWT_SECRET || 'arc-production-secret-2024';
 const WORKSPACE_DIR = process.env.WORKSPACE_DIR || process.cwd();
