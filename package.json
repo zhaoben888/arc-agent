@@ -1,0 +1,16 @@
+{
+  "name": "arc-agent",
+  "version": "1.0.0",
+  "description": "ARC Agent - 远程终端代理，在任何电脑上一键运行即可连接到控制服务器",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "uuid": "^9.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.2.0"
+  }
+}
